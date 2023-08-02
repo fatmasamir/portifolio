@@ -1,0 +1,306 @@
+@import url("../../App.scss");
+.styling_btn {
+  background-color: var(--primary) !important;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  color: #fff !important;
+  width: 150px;
+  height: 45px;
+  margin-top: 20px;
+  svg {
+    margin: 0px 5px;
+  }
+}
+
+header {
+  padding-top: 20px;
+  width: 100%;
+  height: 650px;
+  img {
+    position: relative;
+    z-index: 200;
+  }
+  div.content {
+    padding-top: 10%;
+  }
+
+  div.content h1 {
+    font-size: 50px;
+    margin: 20px 0px;
+    text-transform: capitalize;
+    color: var(--primary);
+    margin-top: 0px;
+  }
+
+  div.content h2,
+  p {
+    color: white;
+    margin: 40px 0px;
+  }
+  div.content h2 {
+    font-family: "Damion", cursive;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+/***projects***/
+.Projects {
+  h2 {
+    color: var(--whitecolor);
+    width: max-content;
+    padding-bottom: 10px;
+  }
+  div.borderline {
+    border-bottom: 4px solid var(--subColor);
+    width: 100px;
+  }
+  .owl-carousel.owl-loaded {
+    direction: ltr;
+  }
+  div .pro {
+    margin: 0px 30px 30px 30px;
+    border-radius: 4px;
+    box-shadow: var(--supshadow) 4px 3px 10px 5px;
+    border: 0px;
+    padding: 4px;
+    height: 570px;
+    background: var(--supbackground);
+    .img_pro {
+      height: 400px;
+      width: 100%;
+      overflow-y: hidden;
+      img {
+        transition: transform 5s ease;
+        width: 100%;
+        &:hover {
+          transform: translateY(calc(-100% + 399px));
+        }
+      }
+    }
+    .content {
+      color: white;
+      padding: 20px 20px;
+      background-color: var(--supbackground);
+      h5 {
+        color: var(--primary);
+        text-transform: uppercase;
+      }
+      p {
+        color: var(--whitecolor);
+        font-size: 15px;
+      }
+      .styling_btn {
+        background-color: var(--subColor) !important;
+        margin-top: 0px;
+      }
+    }
+  }
+}
+
+/***projects***/
+.AboutMe {
+  margin-top: 200px;
+  h2 {
+    color: var(--whitecolor);
+    width: max-content;
+    padding-bottom: 10px;
+  }
+  div.borderline {
+    border-bottom: 4px solid var(--subColor);
+    width: 100px;
+  }
+  ul {
+    width: 45%;
+    color: white;
+    list-style: none;
+    padding: 0px;
+    li {
+      transition: 1s all ease-in-out;
+      margin-bottom: 20px;
+      font-size: 15px;
+      align-items: top;
+      display: flex;
+      svg {
+        color: var(--primary);
+        padding: 5px 10px;
+      }
+      &:hover {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+      }
+    }
+  }
+}
+/****Skills***/
+.Skills {
+  margin-top: 200px;
+  h2 {
+    color: var(--whitecolor);
+    width: max-content;
+    padding-bottom: 10px;
+  }
+  div.borderline {
+    border-bottom: 4px solid var(--subColor);
+    width: 100px;
+  }
+  .list {
+    list-style: none;
+    padding: 0px;
+    li {
+      transition: 1s all ease-in-out;
+      text-align: center;
+      padding: 20px;
+      img {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+      }
+      h5 {
+        color: #ffffffd6;
+        padding: 20px 10px;
+        text-transform: capitalize;
+        font-size: 18px;
+      }
+      &:hover {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+      }
+    }
+  }
+}
+/****contactUs***/
+.contactUs {
+  margin-top: 200px;
+  h2 {
+    color: var(--whitecolor);
+    width: max-content;
+    padding-bottom: 10px;
+  }
+  div.borderline {
+    border-bottom: 4px solid var(--subColor);
+    width: 100px;
+  }
+  .content {
+    padding: 0px 50px 0px 10px;
+    .card {
+      text-align: center;
+      padding: 50px 10px;
+      position: relative;
+      transition: 1s all ease-in-out;
+      background: var(--supbackground);
+      width: 250px;
+      margin: auto;
+      height: 200px;
+      margin-bottom: 50px;
+      a,
+      h6 {
+        color: var(--primary);
+        text-decoration: none;
+      }
+      h6 {
+        padding-top: 20px;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+        margin: 0px auto;
+      }
+      &:hover {
+        img {
+          transform: scale(1.1) rotate(30deg);
+          -webkit-transform: scale(1.1) rotate(30deg);
+          -moz-transform: scale(1.1) rotate(30deg);
+          -ms-transform: scale(1.1) rotate(30deg);
+          -o-transform: scale(1.1) rotate(30deg);
+        }
+      }
+      &::after {
+        animation: pulse 1000ms cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: var(--primary);
+        z-index: -1;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+      }
+    }
+  }
+}
+/** Dir **/
+body[dir="rtl"] {
+  .Projects div .pro {
+    text-align: right;
+  }
+  div.content h2 {
+    font-family: "Cairo", sans-serif;
+    line-height: 1.7;
+  }
+}
+/****footer***/
+footer {
+  padding: 50px 0px;
+  color: var(--primary);
+}
+/***animation***/
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.4;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+}
+/*media query***/
+@media screen and (max-width: 985px) {
+  body,
+  header,
+  body[dir="rtl"],
+  body[dir="rtl"] header {
+    background: url("../../assets/images/backgroundtwo.png") no-repeat fixed
+      bottom center;
+    background-size: cover;
+  }
+  header {
+    height: auto;
+  }
+  header div.content {
+    text-align: center;
+  }
+  .AboutMe ul {
+    width: 90%;
+    margin: auto;
+  }
+  .Projects div .pro {
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+  .navbar-toggler-icon {
+    filter: brightness(0.5) invert(1);
+    -webkit-filter: brightness(0.5) invert(1);
+  }
+  .contactUs .content {
+    padding: 0px;
+  }
+}
