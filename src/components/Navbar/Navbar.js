@@ -46,7 +46,7 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faMoon} />
               </NavLink>
             </li>
-            <li className="nav-item ">
+            {/* <li className="nav-item ">
               <NavLink className="nav-link " to="#main">
                 {t("Services")}
               </NavLink>
@@ -60,7 +60,7 @@ const Navbar = () => {
               <NavLink className="nav-link " to="#services_wrapper">
                 {t("Contactus")}
               </NavLink>
-            </li>
+            </li> */}
             <li className="mobileLang">
               <Dropdown>
                 <Dropdown.Toggle id="dropdown-basic">
