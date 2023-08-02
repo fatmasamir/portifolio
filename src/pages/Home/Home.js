@@ -184,14 +184,6 @@ function Home() {
                         <div className="content">
                           <h5>dashboard rasid jack</h5>
                           <p> vue3 , vuex , sass , Responsive </p>
-                          <a
-                            href="http://salekerp.com/"
-                            className="btn styling_btn"
-                            target="_blank"
-                          >
-                            {" "}
-                            View Project
-                          </a>
                         </div>
                       </div>
                     </div>
