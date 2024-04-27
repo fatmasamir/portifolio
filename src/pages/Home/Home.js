@@ -13,6 +13,9 @@ import pro8 from "../../assets/images/pro8.png";
 import pro9 from "../../assets/images/pro9.png";
 import pro10 from "../../assets/images/pro10.png";
 import pro11 from "../../assets/images/pro11.png";
+import pro12 from "../../assets/images/eagles-car.png";
+import pro13 from "../../assets/images/med-lab.png";
+import pro14 from "../../assets/images/metacces.png";
 import html5 from "../../assets/images/html_5.webp";
 import css3 from "../../assets/images/css_3.webp";
 import js from "../../assets/images/js.png";
@@ -119,6 +122,64 @@ function Home() {
                   data-aos-delay="2"
                 >
                   <OwlCarousel className="owl-theme" {...options}>
+                    {" "}
+                    <div className="item box ">
+                      <div className="pro card">
+                        <div className="img_pro">
+                          <img src={pro12} />
+                        </div>
+                        <div className="content">
+                          <h5>Eagles Car Website</h5>
+                          <p> vue3 , vit , pinia , sass , Responsive </p>
+                          <a
+                            href="https://eagles-car.com/"
+                            className="btn styling_btn"
+                            target="_blank"
+                          >
+                            {" "}
+                            View Project
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="item box ">
+                      <div className="pro card">
+                        <div className="img_pro">
+                          <img src={pro13} />
+                        </div>
+                        <div className="content">
+                          <h5>dashboard MadLab</h5>
+                          <p> html5, javascript, jquery, css , Responsive </p>
+                          <a
+                            href="https://med-lab-seven.vercel.app/"
+                            className="btn styling_btn"
+                            target="_blank"
+                          >
+                            {" "}
+                            View Project
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="item box ">
+                      <div className="pro card">
+                        <div className="img_pro">
+                          <img src={pro14} />
+                        </div>
+                        <div className="content">
+                          <h5>Metacces website</h5>
+                          <p> vue3 , vit , pinia , sass , Responsive </p>
+                          <a
+                            href="https://metacces.com/buy-acces/"
+                            className="btn styling_btn"
+                            target="_blank"
+                          >
+                            {" "}
+                            View Project
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                     <div className="item box ">
                       <div className="pro card">
                         <div className="img_pro">
@@ -184,6 +245,14 @@ function Home() {
                         <div className="content">
                           <h5>dashboard rasid jack</h5>
                           <p> vue3 , vuex , sass , Responsive </p>
+                          <a
+                            href="http://salekerp.com/"
+                            className="btn styling_btn"
+                            target="_blank"
+                          >
+                            {" "}
+                            View Project
+                          </a>
                         </div>
                       </div>
                     </div>
